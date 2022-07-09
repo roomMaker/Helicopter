@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class WingControl : MonoBehaviour
 {
+
     Rigidbody _rb;
     float speed = 0f;
     MyInput _mI;
