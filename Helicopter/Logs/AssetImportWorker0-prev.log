@@ -1,0 +1,273 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.6f1 (7da38d85baf6) revision 8233869'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'ko' Physical Memory: 16310 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.6f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Develop_JH/Helicopter/Helicopter
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+14169
+Successfully changed project path to: C:/Develop_JH/Helicopter/Helicopter
+C:/Develop_JH/Helicopter/Helicopter
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 59.90 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.6f1 (7da38d85baf6)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Develop_JH/Helicopter/Helicopter/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1050 (ID=0x1c81)
+    Vendor:   NVIDIA
+    VRAM:     1977 MB
+    Driver:   27.21.14.5671
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56848
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004897 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 59.68 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.433 seconds
+Domain Reload Profiling:
+	ReloadAssembly (433ms)
+		BeginReloadAssembly (50ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (0ms)
+		EndReloadAssembly (306ms)
+			LoadAssemblies (48ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (64ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (17ms)
+			SetupLoadedEditorAssemblies (184ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (60ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (86ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004286 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Develop_JH\Helicopter\Helicopter\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Develop_JH\Helicopter\Helicopter\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.700 seconds
+Domain Reload Profiling:
+	ReloadAssembly (701ms)
+		BeginReloadAssembly (79ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (15ms)
+		EndReloadAssembly (541ms)
+			LoadAssemblies (59ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (162ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (252ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (65ms)
+				ProcessInitializeOnLoadAttributes (155ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 1.00 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3372 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (110.9 KB). Loaded Objects now: 3829.
+Memory consumption went from 116.0 MB to 115.9 MB.
+Total: 3.314300 ms (FindLiveObjects: 0.231400 ms CreateObjectMapping: 0.107100 ms MarkObjects: 2.887100 ms  DeleteObjects: 0.087800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1738006.278701 seconds.
+  path: Assets/living birds
+  artifactKey: Guid(aa58f6164a398794689dd17dc565acd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/living birds using Guid(aa58f6164a398794689dd17dc565acd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dea777b6cbb9f2ee6655be1d9efca16') in 0.009037 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.974823 seconds.
+  path: Assets/living birds/Materials-Textures
+  artifactKey: Guid(13b3ba17c7bbc134886dcc5d6b9debad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/living birds/Materials-Textures using Guid(13b3ba17c7bbc134886dcc5d6b9debad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18455724465b336290fed44c6b7bb443') in 0.005663 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.891107 seconds.
+  path: Assets/living birds/models/littleBird.FBX
+  artifactKey: Guid(2d22c1b2dd1214c4d835fd1f6d436db7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/living birds/models/littleBird.FBX using Guid(2d22c1b2dd1214c4d835fd1f6d436db7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c0570ee3cb0eec456a8f2c146d2c5e9') in 0.216596 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.516916 seconds.
+  path: Assets/living birds/models/crow.FBX
+  artifactKey: Guid(0646ceebc81f52a4e8a676e94ab46092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/living birds/models/crow.FBX using Guid(0646ceebc81f52a4e8a676e94ab46092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a17db5571751ed3a24b4022bc2e1dd6') in 0.025066 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.924580 seconds.
+  path: Assets/living birds/models/blueJay.FBX
+  artifactKey: Guid(9e8e96d31d222394087dd09880b9a261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/living birds/models/blueJay.FBX using Guid(9e8e96d31d222394087dd09880b9a261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d1deb40f1e410a498aeeb411f70f16c') in 0.024912 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.113751 seconds.
+  path: Assets/living birds/models/cardinal.FBX
+  artifactKey: Guid(f2f7b64dd5c50f8479d6d1610f8537c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/living birds/models/cardinal.FBX using Guid(f2f7b64dd5c50f8479d6d1610f8537c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31fb26f9f26cf22c10f5b868cafcee2d') in 0.014220 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.542779 seconds.
+  path: Assets/living birds/scripts/lb_Bird.cs
+  artifactKey: Guid(2a58512123bcd224eb61112b203e6413) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/living birds/scripts/lb_Bird.cs using Guid(2a58512123bcd224eb61112b203e6413) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dee850b672e8d953d672961de97741b6') in 0.026452 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 28.128430 seconds.
+  path: Assets/living birds/models/robin.FBX
+  artifactKey: Guid(9f593cbd7bb1be142ae42d4b5131603e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/living birds/models/robin.FBX using Guid(9f593cbd7bb1be142ae42d4b5131603e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31fff8d6ad89f72fa085b542707d2c97') in 0.025302 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 28.136924 seconds.
+  path: Assets/living birds/Materials-Textures/blueJayDIffuse.png
+  artifactKey: Guid(f6d44515531016540a2eca4aad3dd89d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/living birds/Materials-Textures/blueJayDIffuse.png using Guid(f6d44515531016540a2eca4aad3dd89d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aade6643a71d2d731d8ebf8d50fe285b') in 0.031641 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 53.092267 seconds.
+  path: Assets/living birds/animations/bird@flyLeft.FBX
+  artifactKey: Guid(57ab8ccdf00569740b090329b9ae9373) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/living birds/animations/bird@flyLeft.FBX using Guid(57ab8ccdf00569740b090329b9ae9373) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe9f10ee3223edc8c5d23898460929d2') in 0.026958 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.700923 seconds.
+  path: Assets/living birds/animations/bird@flyRight.FBX
+  artifactKey: Guid(94716c41dacd7a340b9c94a4d2043197) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/living birds/animations/bird@flyRight.FBX using Guid(94716c41dacd7a340b9c94a4d2043197) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e0cacdaa6afb784a5ac9812ba870c81') in 0.017698 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.767527 seconds.
+  path: Assets/living birds/animations/bird@hopLeft.FBX
+  artifactKey: Guid(62f44b8db6c967743b7107b7e2f4c863) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/living birds/animations/bird@hopLeft.FBX using Guid(62f44b8db6c967743b7107b7e2f4c863) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '469fc88697b3fee5cb84067c33c3e76f') in 0.020244 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.090605 seconds.
+  path: Assets/living birds/animations/bird@flyStraight.FBX
+  artifactKey: Guid(f2dcbf14324d47a499783221451475c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/living birds/animations/bird@flyStraight.FBX using Guid(f2dcbf14324d47a499783221451475c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8baf4e8949dfd50e03b30fe9734f3340') in 0.018488 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.992330 seconds.
+  path: Assets/living birds/animations/bird@landing.FBX
+  artifactKey: Guid(91a0ec93e9077c54fa3a5931b1d22f16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/living birds/animations/bird@landing.FBX using Guid(91a0ec93e9077c54fa3a5931b1d22f16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2eaecae6dc51becb3e9eccf75cfefffe') in 0.024688 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 155.907835 seconds.
+  path: Assets/living birds/animations/bird@sing.FBX
+  artifactKey: Guid(424394d0a52644344830945f23d59ac3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/living birds/animations/bird@sing.FBX using Guid(424394d0a52644344830945f23d59ac3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b1b58eddf7eb1b6a47210941fe01c1c') in 0.033403 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.279537 seconds.
+  path: Assets/living birds/animations/bird@watch01.FBX
+  artifactKey: Guid(fcd9e2f0fe594944fa820d71162634f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/living birds/animations/bird@watch01.FBX using Guid(fcd9e2f0fe594944fa820d71162634f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '467c7ce23fffa3b31bca0297d7df3c5c') in 0.017029 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 212.754752 seconds.
+  path: Assets/living birds/animations/bird@watch02.FBX
+  artifactKey: Guid(2eeda2bfa864a3b4ea31d02ad1d7d8de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/living birds/animations/bird@watch02.FBX using Guid(2eeda2bfa864a3b4ea31d02ad1d7d8de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '076b139b61767d4c6c18eacc1d47cf8a') in 0.034335 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.837923 seconds.
+  path: Assets/living birds/animations/bird@worried.FBX
+  artifactKey: Guid(cfade936808e440439bff42525f9f2aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/living birds/animations/bird@worried.FBX using Guid(cfade936808e440439bff42525f9f2aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c85cd2350bbff92672bc676fe1b1f8ae') in 0.016348 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.697328 seconds.
+  path: Assets/living birds/animations/birdAnimatorController.controller
+  artifactKey: Guid(a24ec9cf4c2103646a47e0497a925d6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/living birds/animations/birdAnimatorController.controller using Guid(a24ec9cf4c2103646a47e0497a925d6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '290d4b5d644ed4ba5ac35130e0b0ba2e') in 0.025357 seconds 
